@@ -1,0 +1,92 @@
+.welcome {
+  width: 1200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  animation: taadaa 3s;
+}
+
+@keyframes taadaa {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body {
+  margin-top: 20px;
+  font-family: "Lobster", cursive;
+}
+.circle {
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  background: #f3a702;
+}
+.img {
+  height: 234.746px;
+}
+.space {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  color: #d5e2d6;
+  text-align: center;
+  line-height: 50px;
+  margin-top: -350px;
+  -moz-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px)
+    skewX(1deg) skewY(1deg);
+  -webkit-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px)
+    skewX(1deg) skewY(1deg);
+  -o-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px)
+    skewX(1deg) skewY(1deg);
+  -ms-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px)
+    skewX(1deg) skewY(1deg);
+  transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg)
+    skewY(1deg);
+  /*-----------------------*/
+  text-shadow: 1px 1px #f3a702, 2px 2px #f3a702, 3px 3px #f3a702,
+    4px 4px #f3a702, 5px 5px #f3a702, 6px 6px #f3a702, 7px 7px #f3a702,
+    8px 8px #f3a702, 9px 9px #f3a702, 10px 10px #f3a702, 11px 11px #f3a702,
+    12px 12px #f3a702, 13px 13px #f3a702, 14px 14px #f3a702, 15px 15px #f3a702,
+    16px 16px #f3a702, 17px 17px #f3a702, 18px 18px #f3a702, 19px 19px #f3a702,
+    20px 20px #f3a702, 21px 21px #f3a702, 22px 22px #f3a702, 23px 23px #f3a702,
+    24px 24px #f3a702, 25px 25px #f3a702, 26px 26px 6px #f3a702;
+}
+
+span:nth-child(3),
+span:nth-child(7) {
+  font-size: 60px;
+}
+
+span:nth-child(1),
+span:nth-child(9),
+span:nth-child(5) {
+  font-size: 110px;
+}
+
+@media screen and (max-width: 600px) {
+  .welcome {
+    width: 300px;
+    height: 150px;
+  }
+  span:nth-child(3),
+  span:nth-child(7) {
+    font-size: 30px;
+  }
+
+  span:nth-child(1),
+  span:nth-child(9),
+  span:nth-child(5) {
+    font-size: 60px;
+  }
+
+  .r {
+  }
+}
